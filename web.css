@@ -8,8 +8,9 @@ body {
 
 
 .main {
-    height: 500px;
-    width: 700px;
+    font-family: 'Inter', system-ui, sans-serif;
+    height: auto;
+    width: 1800px;
     border: 6px solid #897676;
     border-color: #ffffff;
     border-radius: 15px;
@@ -29,7 +30,7 @@ body {
     flex-direction: column;  
     align-items: center; 
     margin: 25px;
-    width: 30%;
+    width: 50%;
     transform: translateX(-1000px);
     animation: slideInLeft 0.8s ease-out 0.5s forwards;
 }
@@ -40,6 +41,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     margin: 25px;
+    padding: 15px;
     transform: translateX(1000px);
     animation: slideInRight 0.8s ease-out 0.7s forwards;
 }
@@ -75,33 +77,45 @@ body {
     }
 }
 
-.profile-pic {
-    height: 200px;
-    width: 200px;
+.pictures {
+    width: 700px;
+    padding: 15px;
     background-color: transparent;
-    border-radius: 50%;
     display: block;
     margin: 25px;
     overflow: hidden;
 }
 
-.about, .links {
+.pictures img {
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+.about{
     font-family: 'Inter', system-ui, sans-serif;
     margin-bottom: 15px;
 }
 
-.about h1, .links h1 {
+.about h1 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 40px;
     padding-bottom: 15px;
     font-palette: #313939;
     color: #ffffff;
 }
 
-.about h2 {
+.about h2{
     font-weight: normal; 
     font-size: 20px; 
     text-align: justify;
+    color: #ffffff;
+}
+
+.pictures h2 {
+    font-weight: normal; 
+    font-size: 20px; 
+    text-align: center;
     color: #ffffff;
 }
 
