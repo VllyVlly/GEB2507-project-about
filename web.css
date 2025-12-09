@@ -158,3 +158,11 @@ body {
   70%  { transform: scale(0.95); }
   100% { transform: scale(1); }
 }
+
+a {
+  color: rgb(255, 255, 255); 
+}
+
+a:hover {
+  color: rgb(200, 255, 0); 
+}
